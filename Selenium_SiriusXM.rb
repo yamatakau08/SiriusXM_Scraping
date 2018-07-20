@@ -43,11 +43,11 @@ end
 item_str = "Watch and Listen Now"
 puts "[CHECK] \"#{item_str}\""
 cname = "get-started-button__text"
-item  = driver.find_elements(:class, cname)
+item  = driver.find_element(:class, cname)
 if item
   puts "[INFO] \"#{item_str}\" found"
   puts "[INFO] \"#{item_str}\" click"
-  item.click
+  #  item.click
   puts "[INFO] \"#{item_str}\" clicked"
 else
   puts "[ERROR] \"#{item_str}\" not found"
