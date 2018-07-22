@@ -114,7 +114,7 @@ end
 # list up
 fstr = <<"EOS" # fstr: final string
 module SiriusXM
-  TBL_Sirius_Music = [
+  TBL_SiriusXM_Music = [
 #{cstr}
   ]
 end
