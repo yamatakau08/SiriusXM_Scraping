@@ -21,8 +21,6 @@ driver.manage.timeouts.implicit_wait = timeout
 
 driver.get(url)
 
-# url: https://www.siriusxm.com
-
 # click "Listen Online"
 item_str = "Listen & Watch or Listen Online"
 puts "[CHECK] \"#{item_str}\""
