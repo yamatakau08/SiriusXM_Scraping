@@ -120,6 +120,7 @@ EOS
 
 puts fstr
 
+# need to improve
 sleep stime
 driver.quit
 
