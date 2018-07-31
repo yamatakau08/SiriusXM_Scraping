@@ -121,3 +121,5 @@ EOS
 puts fstr
 
 sleep stime
+driver.quit
+
