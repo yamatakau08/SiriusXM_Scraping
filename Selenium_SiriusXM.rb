@@ -12,7 +12,7 @@ url   = 'http://www.siriusxm.com' # Top Page
 
 driver = Selenium::WebDriver.for :chrome
 
-stime   = 60 * 100 # stime: sleep time unit sec
+stime   = 60 * 100 # stime: sleep time unit 60 sec 
 
 timeout = 15
 wait = Selenium::WebDriver::Wait.new(:timeout => timeout)
