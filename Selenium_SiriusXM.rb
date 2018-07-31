@@ -124,3 +124,4 @@ puts fstr
 sleep stime
 driver.quit
 
+# magit push check
